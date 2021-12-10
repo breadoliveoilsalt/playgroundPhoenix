@@ -1,4 +1,4 @@
-defmodule PlaygroundPhoenix.PlaygroundPhoenix.Garden do
+defmodule PlaygroundPhoenix.Gardens.Garden do
   use Ecto.Schema
   import Ecto.Changeset
 
