@@ -10,5 +10,5 @@
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
 
-PlaygroundPhoenix.Repo.insert!(%PlaygroundPhoenix.PlaygroundPhoenix.Garden{farmer: "Farmer Bob", square_feet: 100})
-PlaygroundPhoenix.Repo.insert!(%PlaygroundPhoenix.PlaygroundPhoenix.Garden{farmer: "Farmer Sally", square_feet: 500})
+PlaygroundPhoenix.Repo.insert!(%PlaygroundPhoenix.Gardens.Garden{farmer: "Farmer Bob", square_feet: 100})
+PlaygroundPhoenix.Repo.insert!(%PlaygroundPhoenix.Gardens.Garden{farmer: "Farmer Sally", square_feet: 500})
