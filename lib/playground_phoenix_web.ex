@@ -30,7 +30,7 @@ defmodule PlaygroundPhoenixWeb do
   def view do
     quote do
       use Phoenix.View,
-        root: "lib/playgroundPhoenix_web/templates",
+        root: "lib/playground_phoenix_web/templates",
         namespace: PlaygroundPhoenixWeb
 
       # Import convenience functions from controllers

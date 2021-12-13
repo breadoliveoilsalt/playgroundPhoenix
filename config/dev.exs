@@ -58,8 +58,8 @@ config :playgroundPhoenix, PlaygroundPhoenixWeb.Endpoint,
     patterns: [
       ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
-      ~r"lib/playgroundPhoenix_web/(live|views)/.*(ex)$",
-      ~r"lib/playgroundPhoenix_web/templates/.*(eex)$"
+      ~r"lib/playground_phoenix_web/(live|views)/.*(ex)$",
+      ~r"lib/playground_phoenix_web/templates/.*(eex)$"
     ]
   ]
 
