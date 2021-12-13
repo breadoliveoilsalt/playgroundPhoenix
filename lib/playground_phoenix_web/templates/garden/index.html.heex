@@ -1,0 +1,9 @@
+<div style="margin-bottom: 2rem"> You made it to Gardens Page </div>
+
+<div>
+  <ul>
+    <%= for garden <- @gardens do %>
+        <li> Farmer: <%= garden.farmer %> // Square Feet: <%= garden.square_feet %> </li>
+    <% end %>
+  </ul>
+</div>

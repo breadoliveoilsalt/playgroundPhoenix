@@ -6,7 +6,7 @@ defmodule PlaygroundPhoenixWeb.Endpoint do
   # Set :encryption_salt if you would also like to encrypt it.
   @session_options [
     store: :cookie,
-    key: "_playgroundPhoenix_key",
+    key: "_playground_phoenix_key",
     signing_salt: "9o8UYYTP"
   ]
 

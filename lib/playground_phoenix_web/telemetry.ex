@@ -31,23 +31,23 @@ defmodule PlaygroundPhoenixWeb.Telemetry do
       ),
 
       # Database Metrics
-      summary("playgroundPhoenix.repo.query.total_time",
+      summary("playground_phoenix.repo.query.total_time",
         unit: {:native, :millisecond},
         description: "The sum of the other measurements"
       ),
-      summary("playgroundPhoenix.repo.query.decode_time",
+      summary("playground_phoenix.repo.query.decode_time",
         unit: {:native, :millisecond},
         description: "The time spent decoding the data received from the database"
       ),
-      summary("playgroundPhoenix.repo.query.query_time",
+      summary("playground_phoenix.repo.query.query_time",
         unit: {:native, :millisecond},
         description: "The time spent executing the query"
       ),
-      summary("playgroundPhoenix.repo.query.queue_time",
+      summary("playground_phoenix.repo.query.queue_time",
         unit: {:native, :millisecond},
         description: "The time spent waiting for a database connection"
       ),
-      summary("playgroundPhoenix.repo.query.idle_time",
+      summary("playground_phoenix.repo.query.idle_time",
         unit: {:native, :millisecond},
         description:
           "The time the connection spent waiting before being checked out for the query"

@@ -18,6 +18,8 @@ defmodule PlaygroundPhoenixWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+
+    get "/gardens", GardenController, :index
   end
 
   # Other scopes may use custom stacks.
